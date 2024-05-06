@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .profile-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-details {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+        }
+
+        .profile-details div {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-details label {
+            font-weight: bold;
+            margin-right: 10px;
+            min-width: 100px;
+        }
+
+        .profile-details span {
+            padding: 8px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-info">
+            <h2>My Profile</h2>
+            <p>Here are my details:</p>
+        </div>
+        <div class="profile-details">
+            <div>
+                <label>Name:</label>
+                <span>John Doe</span>
+            </div>
+            <div>
+                <label>Age:</label>
+                <span>30</span>
+            </div>
+            <div>
+                <label>Height:</label>
+                <span>180 cm</span>
+            </div>
+            <div>
+                <label>Calories Burned:</label>
+                <span>5000</span>
+            </div>
+            <div>
+                <label>Gender:</label>
+                <span>Male</span>
+            </div>
+            <div>
+                <label>Blood Group:</label>
+                <span>A+</span>
+            </div>
+            <div>
+                <label>Email:</label>
+                <span>john@example.com</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

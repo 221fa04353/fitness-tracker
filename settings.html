@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Page</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        .sidebar {
+            flex: 0 0 250px;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .sidebar h2 {
+            margin-top: 0;
+        }
+
+        .settings-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .settings-list li {
+            margin-bottom: 10px;
+        }
+
+        .settings-list li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .settings-list li a:hover {
+            color: #555;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+        <div class="sidebar">
+            <h2>Settings</h2>
+            <ul class="settings-list">
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>People</h1>
+            <div class="people-info">
+                <!-- People information goes here -->
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/e267099c50.js" crossorigin="anonymous"></script>
+</body>
+  
+</html>

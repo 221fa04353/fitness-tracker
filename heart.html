@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Page</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+</nav>
+
+    <div class="dashboard">
+        <div class="card profile" style="grid-area: 1/1/2/3">
+            <h2>Heart Rate</h2>
+            <p>Current Heart Rate: 78 bpm</p>
+            <p>Target Heart Rate: 120 bpm</p>
+        </div>
+
+        <div class="card schedule-table" style="grid-area: span 2 / span 2">
+            <h2>Heart Condition</h2>
+            <p>Your heart condition is within normal limits.</p>
+        </div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/e267099c50.js" crossorigin="anonymous"></script>
+</body>
+</html>
